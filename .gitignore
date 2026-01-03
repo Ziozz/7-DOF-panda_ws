@@ -1,0 +1,20 @@
+# ROS 2 build files
+/build/
+/install/
+/log/
+
+# colcon
+**/build/
+**/install/
+**/log/
+
+# Python
+__pycache__/
+*.pyc
+
+# VSCode
+.vscode/
+
+# 临时文件
+*.swp
+*.tmp
