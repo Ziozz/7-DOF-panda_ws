@@ -28,7 +28,6 @@ def generate_launch_description():
                 "urdf",
                 "panda.urdf.xacro"
             )
-    
         )
         .robot_description_semantic(file_path="config/panda.srdf")
         .trajectory_execution(file_path="config/moveit_controllers.yaml")
