@@ -154,7 +154,7 @@ sudo apt install ros-humble-ros2-control ros-humble-ros2-controllers
 
 # 📚 References
 
-- 🌐 ROS 2 Humble Documentation
-- 🌐 MoveIt 2 Tutorials
-- 🌐 FishROS Official Website
-- 🔗 Inspired by MechaMind-Labs
+- 🌐 [ROS 2 Humble Documentation](https://docs.ros.org/en/humble/)
+- 🌐 [MoveIt 2 Tutorials](https://moveit.picknik.ai/humble/index.html)
+- 🌐 [FishROS Official Website](https://fishros.org.cn/forum/)
+- 🔗 [Inspired by MechaMind-Labs](https://github.com/MechaMind-Labs/Franka_Panda_Color_Sorting_Robot/tree/main)
