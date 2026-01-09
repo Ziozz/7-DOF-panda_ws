@@ -126,20 +126,22 @@ ros2 launch panda_moveit_config demo.launch.py
 ## 2. Launch Gazebo SimulationTo start the robot in a world with gravity and collision physics:
 
 ```bash
-ros2 launch panda_bringup franka_gazebo.launch.py
+ros2 launch panda_bringup pick_and_place.launch.py 
 ```
 
 ## 3. Run Custom Motion ScriptExecute your Python control logic (ensure you have sourced the workspace in the terminal):
 
 ```bash
-ros2 run pymoveit2 <your_script_name>.py
+ros2 run panda_pick_place pick_place_node
 ```
 
-# ⚠️ Troubleshooting🔴 Gazebo Crashes or Black ScreenThis is often related to GPU drivers. Try forcing software rendering:
+# ⚠️ Troubleshooting
+
+## 🔴 Gazebo Crashes or Black ScreenThis is often related to GPU drivers. Try forcing software rendering:
 
 ```bash
 export LIBGL_ALWAYS_SOFTWARE=1
-ros2 launch panda_bringup franka_gazebo.launch.py
+ros2 launch panda_bringup pick_and_place.launch.py 
 ```
 
 # 🔴 Controller Manager Not Found
@@ -150,4 +152,9 @@ ros2 launch panda_bringup franka_gazebo.launch.py
 sudo apt install ros-humble-ros2-control ros-humble-ros2-controllers
 ```
 
-# 📚 References🌐 ROS 2 Humble Documentation🌐 MoveIt 2 Tutorials🌐 FishROS Official Website🔗 Inspired by MechaMind-Labs
+# 📚 References
+
+- 🌐 ROS 2 Humble Documentation
+- 🌐 MoveIt 2 Tutorials
+- 🌐 FishROS Official Website
+- 🔗 Inspired by MechaMind-Labs
