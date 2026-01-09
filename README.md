@@ -43,7 +43,7 @@ For users on Ubuntu 22.04, the FishROS one-click tool is the most efficient way 
 ## Step 1: Install ROS 2 Humble
 
 ```bash
-wget [http://fishros.com/install](http://fishros.com/install) -O fishros && . fishros
+wget http://fishros.com/install -O fishros && . fishros
 ```
 
 Recommended choices:
